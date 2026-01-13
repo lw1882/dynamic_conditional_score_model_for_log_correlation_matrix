@@ -1,4 +1,4 @@
-# dynamic_conditional_score_model_for_log_correlation_matrix
+# dynamic conditional score model for log correlation matrix
 
 Code to estimate the dynamic conditional score (DCS) model for the **log correlation matrix** proposed in:
 
