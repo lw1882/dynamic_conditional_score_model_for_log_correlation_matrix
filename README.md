@@ -2,7 +2,7 @@
 
 Code to estimate the dynamic conditional score (DCS) model for the **log correlation matrix** proposed in:
 
-- Hafner, C. M., and Wang, L. (2023). *A dynamic conditional score model for the log correlation matrix*.
+- Hafner, C. M., & Wang, L. (2023). A dynamic conditional score model for the log correlation matrix. *Journal of Econometrics*, 237(2), 105176.
 
 **Input:** Sample daily return data stored in `data/asset_returns.csv`.
 
