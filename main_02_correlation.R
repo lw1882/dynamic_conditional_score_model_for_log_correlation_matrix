@@ -15,8 +15,6 @@ phi_param <- 0.95
 eta_param <- 0.12   ### 1/df, i.e. eta_bar
 params_corr_ini <- c(omega_param, kappa_param, phi_param, eta_param)
 ### ======================================================================== ###
-LL_log_corr_mat(params_corr_ini, residual_vol)   # -175.3277
-### ======================================================================== ###
 res_corr <- solnp(pars=params_corr_ini, fun=LL_log_corr_mat,
                   LB=c(rep(-10, N*(N-1)/2), 0, 0, 0),
                   UB=c(rep(10, N*(N-1)/2), 1, 1, 0.5),
